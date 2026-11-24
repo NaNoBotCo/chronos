@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chronos"
+version = "0.1.0"
+description = "Software for a tabletop acoustic time-crystal instrument"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "scipy",
+  "opencv-python-headless",
+  "matplotlib",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+chronos = "chronos.cli:main"
+
+[tool.setuptools]
+packages = ["chronos"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
