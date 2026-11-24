@@ -1,0 +1,10 @@
+The documentation (README.md, docs/) and hardware files (hardware/) in this
+repository are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+Copyright (c) 2026 NaNoBotCo
+
+docs/SPEC.md cites and links the work of Morrell, Elliott & Grier (Phys. Rev.
+Lett. 136, 057201, 2026) and the TinyLev design of Marzo, Barnes & Drinkwater
+(Rev. Sci. Instrum. 88, 085105, 2017). Their papers, data and files remain
+under their own terms.
